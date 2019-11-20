@@ -1,0 +1,8 @@
+{
+    "2.0.7": {
+      "en": "Added brandcolor. Small fixes for radiator thermostat."
+    },
+    "2.0.4": {
+      "en": "Fix tamper alarm for Motion Sensor and Door/Window contact. Added temperature measurement for Radiator Thermostat."
+    }
+}

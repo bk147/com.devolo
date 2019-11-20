@@ -4,6 +4,10 @@ This app adds support for Devolo Z-Wave devices in Homey.
 
 ## Changelog
 
+### Version 2.0.7
+Added brandcolor.
+Small fixes for radiator thermostat.
+
 ### Version 2.0.4
 - Fix tamper alarm for Motion Sensor and Door/Window contact.
 - Added temperature measurement for Radiator Thermostat.
