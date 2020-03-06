@@ -1,4 +1,7 @@
 {
+    "2.0.8": {
+      "en": "Added additional logging for radiator thermostat."
+    },
     "2.0.7": {
       "en": "Added brandcolor. Small fixes for radiator thermostat."
     },

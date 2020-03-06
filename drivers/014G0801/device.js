@@ -10,6 +10,7 @@ class DevoloRadiatorThermostat extends ZwaveDevice {
 
 		// Since this node doesn't report the SENSOR_MULTILVEL commandclass but uses it anyway, parse it here.
 		this.node.on('unknownReport', reportBuffer => {
+			this.log('Unknowreport received', reportBuffer);
 			// TODO check the type byte in the reportBuffer
 			if (reportBuffer) {
 				try {
