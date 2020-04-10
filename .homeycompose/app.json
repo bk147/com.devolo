@@ -5,7 +5,7 @@
     "en": "Devolo"
   },
   "brandColor": "#0D79B8",
-  "version": "2.0.8",
+  "version": "2.0.9",
   "compatibility": ">=2.4.0",
   "description": {
     "en": "Devolo Home Control Z-Wave devices for Homey",

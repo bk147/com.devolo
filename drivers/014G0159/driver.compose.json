@@ -37,15 +37,15 @@
     "learnmode": {
       "image": "{{driverAssetsPath}}/learnmode.svg",
       "instruction": {
-        "en": "Press the button on top of the {{driverNameEn}} to start pairing.",
-        "nl": "Druk op de knop boven op de {{driverNameNl}} om het apparaat toe te voegen."
+        "en": "Press the button on top of the {{driverNameEn}} to start pairing. Make sure the button is blinking green.",
+        "nl": "Druk op de knop boven op de {{driverNameNl}} om het apparaat toe te voegen. Wees er zeker van dat de knop groen knippert."
       }
     },
     "unlearnmode": {
       "image": "{{driverAssetsPath}}/learnmode.svg",
       "instruction": {
-        "en": "Press the button on top of the {{driverNameEn}} to remove the device.",
-        "nl": "Druk op de knop boven op de {{driverNameNl}} om het apparaat te verwijderen."
+        "en": "Press all buttons on the {{driverNameEn}} until the LED on the top button is blinking to remove the device.",
+        "nl": "Druk op alle knoppen op de {{driverNameNl}} tot de LED op de bovenste knop knippert om het apparaat te verwijderen."
       }
     },
     "zwaveAllianceProductId": 1063,

@@ -5,7 +5,7 @@
     "en": "Devolo"
   },
   "brandColor": "#0D79B8",
-  "version": "2.0.8",
+  "version": "2.0.9",
   "compatibility": ">=2.4.0",
   "description": {
     "en": "Devolo Home Control Z-Wave devices for Homey",
@@ -254,15 +254,15 @@
         "learnmode": {
           "image": "/drivers/014G0159/assets/learnmode.svg",
           "instruction": {
-            "en": "Press the button on top of the Room Thermostat to start pairing.",
-            "nl": "Druk op de knop boven op de Kamerthermostaat om het apparaat toe te voegen."
+            "en": "Press the button on top of the Room Thermostat to start pairing. Make sure the button is blinking green.",
+            "nl": "Druk op de knop boven op de Kamerthermostaat om het apparaat toe te voegen. Wees er zeker van dat de knop groen knippert."
           }
         },
         "unlearnmode": {
           "image": "/drivers/014G0159/assets/learnmode.svg",
           "instruction": {
-            "en": "Press the button on top of the Room Thermostat to remove the device.",
-            "nl": "Druk op de knop boven op de Kamerthermostaat om het apparaat te verwijderen."
+            "en": "Press all buttons on the Room Thermostat until the LED on the top button is blinking to remove the device.",
+            "nl": "Druk op alle knoppen op de Kamerthermostaat tot de LED op de bovenste knop knippert om het apparaat te verwijderen."
           }
         },
         "zwaveAllianceProductId": 1063,
