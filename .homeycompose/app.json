@@ -5,7 +5,7 @@
     "en": "Devolo"
   },
   "brandColor": "#0D79B8",
-  "version": "2.0.9",
+  "version": "2.0.10",
   "compatibility": ">=2.4.0",
   "description": {
     "en": "Devolo Home Control Z-Wave devices for Homey",
@@ -27,6 +27,10 @@
   },
   "contributors": {
     "developers": [
+      {
+        "name": "Momotica",
+        "email": "menno@momotica.nl"
+      },
       {
         "name": "Bram Oosterhuis",
         "email": "bram.oosterhuis.nl@gmail.com"

@@ -44,8 +44,8 @@
     "unlearnmode": {
       "image": "{{driverAssetsPath}}/learnmode.svg",
       "instruction": {
-        "en": "Press all buttons on the {{driverNameEn}} until the LED on the top button is blinking to remove the device.",
-        "nl": "Druk op alle knoppen op de {{driverNameNl}} tot de LED op de bovenste knop knippert om het apparaat te verwijderen."
+        "en": "Hold down the 3 buttons on the {{driverNameEn}} for 5 seconds (up, down and LED button).",
+        "nl": "Houd de 3 knoppen op de {{driverNameNl}} seconden ingedrukt (omhoog, omlaag en LED knop)."
       }
     },
     "zwaveAllianceProductId": 1063,

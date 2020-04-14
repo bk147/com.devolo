@@ -1,0 +1,199 @@
+[
+  {
+    "type": "group",
+    "label": {
+      "en": "Temperature settings",
+      "nl": "Temperatuur instellingen"
+    },
+    "collapsed": false,
+    "children": [
+      {
+        "id": "Temperature_Report_threshold",
+        "type": "number",
+        "label": {
+          "en": "Temperature Report threshold",
+          "nl": "Drempel temperatuurrapport"
+        },
+        "hint": {
+          "en": "From 0.1 to 10°C in 0.1°C steps",
+          "nl": "Van 0.1 tot 10°C in stappen van 0.1°C"
+        },
+        "zwave": {
+          "index": 1,
+          "size": 2
+        },
+        "attr": {
+          "min": 1,
+          "max": 100
+        },
+        "value": 5
+      },
+      {
+      "id": "Set-point_display_resolution",
+      "type": "number",
+      "label": {
+          "en": "Set-point display resolution",
+          "nl": "Temperatuur instel waarde"
+      },
+      "hint": {
+        "en": "From 0.1 to 10°C in 0.1°C steps",
+        "nl": "Van 0.1 tot 10°C in stappen van 0.1°C"
+      },
+      "zwave": {
+        "index": 2,
+        "size": 2
+      },
+      "attr": {
+        "min": 1,
+        "max": 100
+      },
+      "value": 5
+      },
+      {
+      "id": "Min_setpoint",
+      "type": "number",
+      "label": {
+        "en": "Min set-point and override limit",
+        "nl": "Minimale instelbare temperatuur"
+      },
+      "hint": {
+        "en": "From min 0°C to max setpoint/override limit",
+        "nl": "Van minimaal 0°C tot de maximale instelbare temperatuur"
+      },
+      "zwave": {
+        "index": 3,
+        "size": 2
+      },
+      "attr": {
+        "min": 0,
+        "max": 40
+      },
+      "value": 12
+      },
+      {
+      "id": "Max_setpoint",
+      "type": "number",
+      "label": {
+        "en": "Max set-point and override limit",
+        "nl": "Maximale instelbare temperatuur"
+      },
+      "hint": {
+        "en": "From min setpoint/override limit to max 40°C",
+        "nl": "Van minimale instelbare temperatuu tot max 40°C"
+      },
+      "zwave": {
+        "index": 4,
+        "size": 2
+      },
+      "attr": {
+        "min": 0,
+        "max": 40
+      },
+      "value": 28
+      }
+    ]
+  },
+  {
+      "type": "group",
+      "label": {
+          "en": "LED settings",
+          "nl": "LED instellingen"
+      },
+      "collapsed": false,
+      "children": [
+          {
+          "id": "LED_Flash_period",
+          "type": "number",
+          "label": {
+            "en": "LED Flash period",
+            "nl": "LED Kipper tijd"
+          },
+          "hint": {
+            "en": "Seconds",
+            "nl": "Secondes"
+          },
+          "zwave": {
+            "index": 5,
+            "size": 2
+          },
+          "attr": {
+            "min": 0,
+            "max": 32767
+          },
+          "value": 1
+          },
+          {
+          "id": "LED_on_time",
+          "type": "number",
+          "label": {
+            "en": "LED on time",
+            "nl": "LED aan tijd"
+          },
+          "hint": {
+            "en": "100 to 500ms in 100ms steps",
+            "nl": "100 tot 500ms in stappen van 100ms"
+          },
+          "zwave": {
+            "index": 9,
+            "size": 1
+          },
+          "attr": {
+            "min": 1,
+            "max": 5
+          },
+          "value": 1
+          },
+          {
+          "id": "Number_of_LED_flashes",
+          "type": "number",
+          "label": {
+            "en": "Number of LED flashes (duration)",
+            "nl": "Aantal maal LED knippert (tijd)"
+          },
+          "hint": {
+            "en": "Flashes",
+            "nl": "Knippert"
+          },
+          "zwave": {
+            "index": 10,
+            "size": 2
+          },
+          "attr": {
+            "min": 0,
+            "max": 255
+          },
+          "value": 5
+          },
+          {
+          "id": "LED_Color",
+          "type": "dropdown",
+          "label": {
+            "en": "LED Color",
+            "nl": "LED Kleur"
+          },
+          "zwave": {
+            "index": 11,
+            "size": 1
+          },
+          "value": "1",
+          "values": [
+          {
+          "id": "1",
+          "label": {
+            "en": "Green",
+            "nl": "Groen"
+          }
+          },
+          {
+          "id": "2",
+          "label": {
+            "en": "Red",
+            "nl": "Rood"
+          }
+        }
+      ]
+        }
+
+      ]
+  }
+] 
