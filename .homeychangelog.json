@@ -10,5 +10,8 @@
     },
     "2.0.9": {
       "en": "Corrected room thermostat pairing."
+    },
+    "2.0.10": {
+      "en": "Added Room Thermostat settings. Small optimizations."
     }
 }

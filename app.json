@@ -28,6 +28,10 @@
   "contributors": {
     "developers": [
       {
+        "name": "Momotica",
+        "email": "menno@momotica.nl"
+      },
+      {
         "name": "Bram Oosterhuis",
         "email": "bram.oosterhuis.nl@gmail.com"
       },
